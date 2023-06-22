@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px;
+    flex-wrap: wrap;
+}
+
+.left{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.left img{
+    width: 160px;
+    height: 31px;
+    margin-right: 20px;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+.navs a{
+    color:black;
+    margin-right: 10px;
+}
+.signinup a{
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+main{
+    margin: 100px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.mleft{
+    width: 50%;
+}
+p{
+    width: 60%;
+}
+.mright{
+    width: 50%;
+}
+.mright img{
+    width: 100%;
+}
+
+.mleft h1{
+    margin-bottom: 20px;
+}
+.mleft p{
+    margin-bottom: 20px;
+}
+.mleft a{
+    color:white;
+    background-color: #2294ED;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.mleft div{
+    padding-top: 20px;
+}
+footer{
+    margin: 50px 0px;
+}
+.ftop{
+    margin: 50px 0px;
+    text-align: center;
+    
+}
+.f-bottom{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.f-bottom img{
+    width: 10%;
+}
+
+@media (max-width:1023px){
+    .left{
+        width: 100%;
+        margin: 20px 0px;
+        border-bottom: 1px solid gray;
+    }
+    .right{
+        width: 100%;
+    }
+    .mleft{
+        text-align: center;
+        width: 100%;
+    }
+    .mleft{
+        display: flex;
+        align-items:center;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    .mright{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .f-bottom img{
+        width: 26%;
+    }
+}
+@media(max-width:425px){
+    .right{
+        display: flex;
+        flex-direction: column;
+    }
+    .right ul {
+        margin-bottom: 20px;
+    }
+    main{
+        margin: 0px;
+    }
+}
+@media (max-width:528px){
+    .signinup a{
+        margin-left: 5px;
+        padding: 5px 6px;
+        border: 1px solid black;
+    
+    }
+    .navs a{
+        color:black;
+        margin-right: 5px;
+    }
+    .f-bottom img{
+        width: 40%;
+    }
+    
+    footer{
+        margin:  0px;
+    }
+}
+
